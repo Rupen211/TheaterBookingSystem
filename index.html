@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<title>Mega Threater</title>
+	<link rel="shortcut icon" type="image/png" href="images/mega.png" > <!--  tab icon(logo) display in browser -->
+
+	<link href="styles/mystyles.css" type="text/css" rel="stylesheet"> <!--  css style link -->
+	<head>
+			<meta charset="UTF-8">
+
+			<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> <!-- google Font link -->
+	</head>
+
+<body>
+
+	<h1 align="center">MEGA THEATER</h1>
+
+	<h2 class='Detail'>Hi, wel come to mega Threater. Please, enter you name and email below to see the show details</h2>
+
+		<form action="PHP/perf.php" method="GET">  <!-- Form to link into perf.php file -->
+		        <p> Name : <input type="text" name="Name" placeholder="Your Name..." required Onchange= '
+													var str = this.value;
+													if(str.length<1)
+													{
+														alert(" This is a required field.");
+													}'>
+						</p>
+						<p> E-mail : <input type="email" name="email" id ="email" placeholder="Your Email..." required></p>
+		        <p><input class='buttons' name="Submit" type="submit" value="See Performances" ></p> <!-- 'submit' button links to 'perf.php' server page -->
+
+		</form>
+
+</body>
+</html>
