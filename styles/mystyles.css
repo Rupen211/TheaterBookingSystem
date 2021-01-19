@@ -1,0 +1,138 @@
+
+/* Head style*/
+ h1{
+	 -webkit-text-stroke: 0.5px black;
+		font-family: 'Lobster', cursive;
+		/*padding: 0.5rem;*/
+		text-shadow: 3px 3px 0 yellow,
+						     -1px -1px 0 #000,
+						      1px -1px 0 #000,
+						      -1px 1px 0 #000,
+						       1px 1px 0 #000;
+		color: 	#00BFFF;
+		font-size: 80px;
+  }
+
+/* Background of the body with image*/
+  body
+	{
+		background-image: url(../images/BG.jpg);
+		background-repeat: no-repeat;
+    object-fit: contain;
+		color: white;
+
+	 }
+/*Paragraph Font*/
+p {
+	-webkit-text-stroke: 1px black;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	padding: 0.5rem;
+	text-shadow: 1px 1px 1px yellow;
+	color: 		#32CD32;
+	text-align:center;
+  }
+/* Table head text style and colour */
+th {
+		font-family: 'Permanent Marker', cursive;
+		color: black;
+		text-align:center;
+		font-size: 20px;
+	 }
+/* Head with class='Detail' text style*/
+.Detail{
+	 	 -webkit-text-stroke: 1px black;
+	 		font-family: 'Permanent Marker', cursive;
+	 		font-size: 25px;
+	 		padding: 0.5rem;
+	 		text-shadow: 1px 1px 1px yellow;
+	 		color: 		#32CD32;
+	 		text-align:center;
+	 		}
+/* Placegolder (Name and Email) shows in light text colour*/
+::placeholder
+	 	{
+	 		color: grey;
+	 	}
+/* Table head styles*/
+.tableX th{
+					text-shadow: 1px 1px 1px yellow;
+					border: 1px solid black;
+					font-family: 'Permanent Marker', cursive;
+					}
+/* All the text will have shadows */
+.tableX	td{
+		text-shadow: 1px 1px 1px grey;
+		text-align : center;
+		border: 1px solid black;
+	  }
+/* Tables will have thin border with background colour light green*/
+table.tableX{
+				border-collapse: collapse;
+				background-color: #8FBC8F;
+				min-width: 600px;
+			 }
+/* Table Row with class=titleX will have Red coloured text*/
+.titleX{
+				color: Red;
+				text-align:center;
+				font-size: 20px;
+			 }
+/* Changes the colour of button when hover around it*/
+.buttons:hover {background-color: #3e8e41}
+
+/* Button shape,text,align,text-style,etc design*/
+.buttons {
+				background-color: #4CAF50;
+				border: 1px solid black;;
+				color: white;
+				cursor: pointer;
+				padding: 15px 32px;
+				text-align: center;
+				-webkit-text-stroke: 1px black;
+				text-decoration: none;
+				text-shadow: 1px 1px 1px black;
+				display: inline-block;
+				font-family: 'Permanent Marker', cursive;
+				font-size: 16px;
+				margin-left: auto;
+    		margin-right: auto;
+				border-radius: 8px;
+				}
+
+.seeAV {
+			background-color: #4CAF50;
+			color: white;
+			text-align: center;
+			text-shadow: 1px 1px 1px black;
+		 }
+
+.info{
+			-webkit-text-stroke: 1px black;
+			font-family: 'Permanent Marker', cursive;
+			font-size: 25px;
+			padding: 0.5rem;
+			text-shadow: 1px 1px 1px yellow;
+			color: 		#32CD32;
+			text-align:center;
+		}
+/* ID 'pound' style*/
+#pound{
+				color: #00BFFF;
+				font-family: 'Patua One', cursive;
+				text-shadow: 1px 1px 1px grey;
+			}
+/* ID 'valueX' style*/
+#valueX{
+				color: #00BFFF;
+				font-family: 'Patua One', cursive;
+				text-shadow: 1px 1px 1px grey;
+			 }
+/* ID 'seatX' style*/
+#seatX{
+				-webkit-text-stroke: 1px black;
+				color: #00BFFF;
+				font-family: 'Patua One', cursive;
+				text-shadow: 1px 1px 1px grey;
+				font-size: 20px;
+			}
